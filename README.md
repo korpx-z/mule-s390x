@@ -1,5 +1,14 @@
+### This image is built to run on s390x architecture
 -    [build source](https://github.com/korpx-z/mule-s390x/tree/master/)
 -    [original source code](https://github.com/mulesoft/mule)
+
+### Versions
+3.9.1
+
+Get Started
+===========
+
+`docker run --name Mule -d -p 8081:7777  quay.io/ibm/mule:3.9.1 mule start`
 
 # Mule
 ===============================
@@ -22,7 +31,3 @@ Mule uses components to conduct backend processes for specific business logic (l
 
 A flow, therefore, is the construct within which you link together several individual components (i.e. building blocks) to handle the receipt, processing, and eventual routing of a message. You can connect many flows together to build a complete application which you can then deploy on premise, on Mule, on another application server, or in the cloud. Practically speaking, you could build, deploy, and run a Mule application in a matter of hours, rather than spending weeks or months building point-to-point connections between systems. Studio, Mule’s Eclipse-based graphical IDE, makes it even easier to model, then configure, test, and deploy your applications. Mule is so named because it “carries the heavy development load” of connecting systems.
 
-Get Started
-===========
-
-`docker run --name Mule -d -p 8081:7777  quay.io/ibmz/mule:3.9.1 mule start`
