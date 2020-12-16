@@ -23,7 +23,7 @@
 ###################################################################################
 
 # Base Image
-FROM quay.io/ibmz/ubuntu:18.04
+FROM quay.io/ibm/ubuntu:18.04
 
 # The author
 MAINTAINER  LoZ Open Source Ecosystem (https://www.ibm.com/developerworks/community/groups/community/lozopensource)
