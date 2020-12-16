@@ -6,7 +6,7 @@ env:
     - TEST_DIR="$PWD/"
     - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/mule/"
-    - REPO="quay.io/ibmz/mule"
+    - REPO="quay.io/ibm/mule"
     - TAG="$REPO:3.9.1"
 before_script: 
   - cd $BUILD_DIR && chmod +x *
